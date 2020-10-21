@@ -16,12 +16,8 @@ void str_echo(int connfd){
 	char *buff = malloc(bufsize);
 	struct sockaddr_in addr;
 
-again: while((n=recv(connfd,buff,bufsize,0))>0){
-	       getpeername(connfd,(struct sockaddr *) &addr,&len);
-	       printf("The client with %s ip and port %d sent - \n %s \n",inet_ntoa(addr.sin_addr),addr.sin_port,buff);  
+again: while((n=recv(connfd,buff,bufsize,0))>0)  
 	       send(connfd,buff,n,0);
-       }
-
        if(n<0)
 	       goto again;
 }
