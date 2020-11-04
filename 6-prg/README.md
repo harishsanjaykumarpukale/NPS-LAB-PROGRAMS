@@ -6,3 +6,7 @@
 ![](https://raw.githubusercontent.com/harishsanjaykumarpukale/NPS-LAB-PROGRAMS/main/6-prg/Screenshot%20from%202020-11-04%2015-44-20.png?token=ALCA4XFDIHYEZRUFU45AKXS7UKYLY)
 
 ![](https://github.com/harishsanjaykumarpukale/NPS-LAB-PROGRAMS/blob/main/6-prg/Screenshot%20from%202020-11-04%2015-44-33.png)
+
+
+### 6 c. Iterative Conection-Less (UDP) echo server
+![](https://github.com/harishsanjaykumarpukale/NPS-LAB-PROGRAMS/blob/main/6-prg/Screenshot%20from%202020-11-04%2015-49-09.png)
